@@ -962,5 +962,18 @@ footer .footer-content p {
         padding-right: 5%;
     }
 }
+.about-hover {
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    transition: all 0.4s ease;
+}
+
+.about-hover:hover {
+    transform: translateY(-8px);
+    border-color: #2ecfba;
+    box-shadow: 0 12px 35px rgba(46, 207, 186, 0.25);
+    background: #f8fffd;
+}
 
 /*# sourceMappingURL=style.css.map */
