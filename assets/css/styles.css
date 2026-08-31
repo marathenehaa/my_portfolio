@@ -1503,7 +1503,7 @@ li .fa {
     ==============
 */
 .mh-home .mh-header-info {
-  padding-top: 100px;
+  padding-top: 500px;
 }
 
 .mh-home .mh-header-info .mh-promo {
@@ -4998,7 +4998,7 @@ BLOG Pagination
 .what-bring-heading > span {
     display: inline-block;
 
-    font-size: 12px;
+    font-size: 20px;
 
     font-weight: 700;
 
@@ -6238,7 +6238,7 @@ BLOG Pagination
 .career-heading > span {
     display: inline-block;
     color: #0bceaf;
-    font-size: 12px;
+    font-size: 25px;
     font-weight: 700;
     letter-spacing: 3px;
     margin-bottom: 12px;
@@ -6777,7 +6777,7 @@ BLOG Pagination
 .build-lab-title span {
     display: inline-block;
     color: #0bceaf;
-    font-size: 11px;
+    font-size: 20px;
     font-weight: 700;
     letter-spacing: 3px;
     margin-bottom: 12px;
@@ -7293,6 +7293,7 @@ BLOG Pagination
     align-items: center;
     gap: 8px;
     margin-bottom: 22px;
+    margin-top: 50px;
     color: #0bceaf;
     font-size: 10px;
     font-weight: 700;
@@ -7472,7 +7473,7 @@ BLOG Pagination
 
 @media (max-width: 767px) {
     .classy-home {
-        padding: 100px 15px 70px;
+        padding: 500px 15px 70px;
     }
 
     .classy-home-row {
@@ -7792,5 +7793,263 @@ BLOG Pagination
     color: #777;
     font-size: 14px;
     line-height: 1.8;
+}
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .classy-home {
+        padding: 60px 0;
+    }
+
+    .classy-home-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .classy-home-content {
+        text-align: center;
+    }
+
+    .classy-home-content h1 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .classy-home-content h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .classy-home-image {
+        margin: 35px auto 0;
+        max-width: 300px;
+    }
+
+    .classy-home-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .classy-btn {
+        width: 100%;
+        max-width: 260px;
+        text-align: center;
+    }
+
+    .what-i-do-grid {
+        display: block;
+    }
+
+    .what-do-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .build-lab-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .build-card {
+        width: 100%;
+    }
+
+    .build-card-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .expertise-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .about-buttons a {
+        width: 100%;
+        max-width: 260px;
+        text-align: center;
+    }
+
+    .section-title h2,
+    .section-title h3 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .section-separator {
+        padding: 50px 0;
+    }
+}
+@media (max-width: 480px) {
+    .classy-home {
+        padding: 45px 0;
+    }
+
+    .classy-home-content h1 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .classy-home-content h2 {
+        font-size: 21px;
+        line-height: 30px;
+    }
+
+    .classy-home-content p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .classy-home-image {
+        max-width: 240px;
+    }
+
+    .build-card-content {
+        padding: 20px;
+    }
+
+    .section-separator {
+        padding: 40px 0;
+    }
+}
+@media (max-width: 767px) {
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .row {
+        width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .classy-home {
+        width: 100%;
+        min-height: auto;
+        padding: 50px 15px 40px;
+        overflow: hidden;
+    }
+
+    .classy-home-row {
+        width: 100%;
+        min-height: auto !important;
+        display: block !important;
+        padding-top: 0 !important;
+    }
+
+    .classy-home-row > div {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .classy-home-content {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .classy-home-content h1 {
+        font-size: 30px;
+        line-height: 38px;
+        word-wrap: break-word;
+    }
+
+    .classy-home-content h2 {
+        font-size: 19px;
+        line-height: 28px;
+    }
+
+    .classy-home-content p {
+        width: 100%;
+        max-width: 100%;
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .classy-home-buttons {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .classy-home-social {
+        justify-content: center;
+    }
+
+    .classy-home-image {
+        width: 240px;
+        max-width: 100%;
+        height: 295px;
+        margin: 20px auto 0;
+    }
+
+    .classy-image {
+        width: 215px;
+        max-width: 100%;
+        height: 265px;
+        left: 10px;
+    }
+
+    .classy-image-frame {
+        width: 215px;
+        max-width: 100%;
+        height: 265px;
+    }
+
+    .classy-image-tag {
+        left: 0;
+        bottom: 15px;
+    }
+
+    .navbar {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .navbar-brand {
+        max-width: 75%;
+        margin-right: 0;
+    }
+
+    .navbar-brand img {
+        width: auto !important;
+        max-width: 100% !important;
+        height: auto;
+    }
 }
 /*# sourceMappingURL=styles.css.map */

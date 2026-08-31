@@ -975,5 +975,102 @@ footer .footer-content p {
     box-shadow: 0 12px 35px rgba(46, 207, 186, 0.25);
     background: #f8fffd;
 }
+@media (max-width: 767px) {
+    .classy-home {
+        min-height: auto;
+        padding: 50px 15px 40px;
+    }
+
+    .classy-home-content {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .classy-home-content h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .classy-home-content h2 {
+        font-size: 20px;
+        line-height: 28px;
+        margin: 8px 0 15px;
+    }
+
+    .classy-home-content p {
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    .classy-home-buttons {
+        justify-content: center;
+    }
+
+    .classy-home-social {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .classy-home-image {
+        width: 260px;
+        height: 320px;
+        margin: 10px auto 0;
+    }
+
+    .classy-image {
+        width: 230px;
+        height: 285px;
+        top: 15px;
+        left: 15px;
+    }
+
+    .classy-image-frame {
+        width: 230px;
+        height: 285px;
+    }
+
+    .classy-image-tag {
+        left: 0;
+        bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .classy-home {
+        padding: 40px 12px 30px;
+    }
+
+    .classy-home-content h1 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .classy-home-content h2 {
+        font-size: 18px;
+    }
+
+    .classy-home-content p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .classy-home-image {
+        width: 240px;
+        height: 295px;
+    }
+
+    .classy-image {
+        width: 215px;
+        height: 265px;
+    }
+
+    .classy-image-frame {
+        width: 215px;
+        height: 265px;
+    }
+}
 
 /*# sourceMappingURL=style.css.map */
